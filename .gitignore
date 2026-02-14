@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# HuggingFace model weights (re-downloadable)
+*.safetensors
+*.bin
+tokenizer.model
+
+# CoreML exported models (regenerable from conversion scripts)
+*.mlpackage/
+
+# ImageNet evaluation data (too large for git)
+datasets/data/
+datasets/.cache/
